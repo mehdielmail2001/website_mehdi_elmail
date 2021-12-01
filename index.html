@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en"style="font-size: 62.5%;" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+<style> 
+  .header .navbar a{
+      margin:0 1rem;
+      font-size: 1.7rem;
+      color:var(--black);
+  }
+      .btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding:.8rem 3rem;
+    background:var(--light-yellow);
+    color:var(--black);
+    cursor: pointer;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    font-weight: 500;
+    text-align: center;
+
+  }
+  </style>
+
+</head>
+<body >
+    <header class="header" style="    align-items: center;  justify-content: space-between; position: fixed;top:0; left:0; right:0; background: hsl(52, 100%, 75%);  width: 100%; z-index: 100;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning" style="--bs-bg-opacity: .5; height: 100%; ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+<section class="home" >
+
+    <h3 data-speed="-2" class="home-parallax">find your car</h3>
+
+    <div  id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image\home-img.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image\home-img.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image\home-img.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+</section>
+
+
+
+
+
+<section id="services">
+  <div class="container mt-4"  >
+      <div class="row mb-5">
+          <div class="col-md-8 mx-auto text-center">
+              <h1 class="heading">SERIVCES</h1>
+      </div>
+      <div class="row g-4">
+          <div class=" col-lg-4   col-sm-12">
+              <div class="row card-effect bounceInUp service" style="margin: 0">
+                  <div class="col-12 col-sm-5  col-lg-12">
+                     <img class="d-block h-100 w-100" src="image/pic-1.png" alt="">
+                  </div>
+                  <div class="col-12 col-sm-7 col-lg-12 bounceInUp">
+                      <div class="card-block pt-2">
+                        <h4>Copy paste the HTML and CSS.</h4>
+                        <h4>Change around the content for awsomenes</h4>
+                          <br>
+                          <a href="#" class="btn btn-primary btn-sm float-none">Read More</a>
+                      </div>
+                  </div>
+             </div>
+          </div>
+          <div class=" col-lg-4  col-sm-12">
+              <div class="row card-effect bounceInUp service" style="margin: 0">
+                  <div class="col-12 col-sm-5  col-lg-12">
+                     <img class="d-block h-100 w-100" src="image/pic-2.png" alt="">
+                  </div>
+                  <div class="col-12 col-sm-7 col-lg-12 bounceInUp">
+                      <div class="card-block pt-2">
+                        <h4>Copy paste the HTML and CSS.</h4>
+                        <h4>Change around the content for awsomenes</h4>
+                          <br>
+                          <a href="#" class="btn btn-primary btn-sm float-none">Read More</a>
+                      </div>
+                  </div>
+              </div>
+             
+          </div>
+          <div class=" col-lg-4  col-sm-12">
+              <div class="row card-effect bounceInUp service" style="margin: 0">
+                  <div class="col-12 col-sm-5  col-lg-12">
+                     <img class="d-block h-100 w-100" src="image/pic-6.png" alt="">
+                  </div>
+                  <div class="col-12 col-sm-7 col-lg-12 bounceInUp">
+                      <div class="card-block pt-2">
+                          <h4>Copy paste the HTML and CSS.</h4>
+                          <h4>Change around the content for awsomenes</h4>
+                          <br>
+                          <a href="#" class="btn btn-primary btn-sm float-none">Read More</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+
+
+
+<section class="reviews">
+    <h1 class="heading"> Sallers</h1>
+
+    <div class="container mt-4">
+
+      <div class="row text-center g-4">
+          <div class="col-lg-4 ">
+              <div class="team-member card-effect">
+                  <img src="image/pic-1.png" alt="">
+                  <h3 class="mb-0 mt-4">Mehdi El mail</h3>
+                  <h4>vendeur </h4>
+              </div>
+          </div>
+          <div class="col-lg-4 ">
+              <div class="team-member card-effect">
+                  <img src="image/pic-2.png" alt="">
+                  <h3 class="mb-0 mt-4">Mehdi El mail</h3>
+                  <h4>vendeur </h4>
+              </div>
+          </div>
+          <div class="col-lg-4 ">
+              <div class="team-member card-effect">
+                  <img src="image/pic-6.png" alt="">
+                  <h3 class="mb-0 mt-4">Mehdi El mail</h3>
+                  <h4>vendeur </h4>
+              </div>
+          </div>
+      </div>
+  </div>
+
+</section>
+
+<section class="contact">
+
+    <h1 class="heading">contact us</h1>
+
+    <div class="row" class="box-container">
+      <div class="box">
+        <h1>contact info</h1>
+        <br></br>
+        <h4 href="#"> <i class="fas fa-phone"></i> +212-697-94-75-46 </h4>
+        <h4 href="#"> <i class="fas fa-phone"></i> +212-697-94-75-46 </h4>
+        <h4 href="#"> <i class="fas fa-envelope"></i> elmailmehdi2@gmail.com </h4>
+        <h4 href="#"> <i class="fas fa-map-marker-alt"></i>casablanca, morocco - 90000 </h4>
+    </div>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.230633443701!2d-7.652755384842063!3d33.54738358074634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda62d262465ab85%3A0x44a491d16cf62c44!2sHassania%20School%20of%20Public%20Works!5e0!3m2!1sen!2sin!4v1636822189717!5m2!1sen!2sin+" allowfullscreen="" loading="lazy"></iframe>
+
+
+    </div>
+
+</section>
+
+<section  class="footer" id="footer" style="    background: var(--light-yellow);padding-bottom: 8rem;">
+    <div class="credit" style="    text-align: center;  padding:1.5rem; padding-top: 2.5rem; margin-top: 2rem; border-top: var(--border); font-size: 2rem; color:var(--black);"> created by Mehdi </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
